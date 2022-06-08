@@ -1,0 +1,179 @@
+:root {
+  --btn-color: rgb(192, 38, 74);
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-shadow: 2px 2px 6px rgba(60, 60, 60, 0.42);
+}
+.navbar .fa-drupal {
+  font-size: 1.5rem;
+  color: var(--btn-color);
+  letter-spacing: 2px;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: rgb(248, 249, 251);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  letter-spacing: 2px;
+}
+.active {
+  font-weight: bold;
+  color: var(--btn-color) !important;
+}
+
+ul li {
+  margin: 0.5rem;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: var(--btn-color) !important;
+  transition: ease-in 0.2s;
+}
+
+#home {
+  background-image: url(./Images/collage/people.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.612);
+  background-blend-mode: color;
+  display: flex;
+  align-items: center;
+}
+#home h1 {
+  font-family: "Roboto", sans-serif;
+}
+.input-grp {
+  background-color: white;
+}
+.input {
+  border: none;
+  padding: 9px;
+  background-color: rgba(128, 128, 128, 0.692);
+  min-width: 30vw;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+}
+.input::placeholder {
+  color: rgb(220, 220, 220);
+}
+.mybtn {
+  background-color: var(--btn-color);
+  color: white;
+  padding: 8px;
+  transition: ease-in 0.3s;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.mybtn:hover {
+  background-color: rgb(164, 20, 73);
+  color: white;
+}
+.mybtn:active {
+  transform: scale(0.9);
+}
+
+.tagline {
+  color: var(--btn-color);
+  letter-spacing: 1px;
+}
+#services .fa-solid {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--btn-color);
+  border: 1px solid var(--btn-color);
+  padding: 10px;
+  border-radius: 6px;
+}
+.cards {
+  padding: 20px;
+  cursor: pointer;
+  transition: transform 0.4s;
+  border: 1px solid var(--btn-color);
+  border-radius: 6px;
+}
+.cards:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(63, 63, 63, 0.539);
+}
+.lets-create {
+  background-image: url(./Images/collage/meeting.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.829);
+  background-blend-mode: color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.collage img {
+  width: 26rem;
+  border-radius: 6px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.699);
+  cursor: pointer;
+  transition: transform 0.6s;
+}
+.collage img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 5px 10px rgba(24, 24, 24, 0.806);
+}
+.maps {
+  background-image: url(./Images/collage/meeting.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.829);
+  background-blend-mode: color;
+  color: white;
+}
+
+.footer i {
+  font-size: 1.8rem;
+  cursor: pointer;
+  padding: 10px;
+  transition: ease-in-out 0.4s;
+  letter-spacing: 1px;
+}
+.footer i:hover {
+  color: var(--btn-color);
+}
+.footer-img {
+  background-image: url("./Images/blog/pexels-mart-production-7643750.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.829);
+  background-blend-mode: color;
+  color: white;
+}
+.footer-bar {
+  background-color: rgb(58, 15, 0);
+  color: rgb(238, 238, 238);
+  height: 6vh;
+}
+.footer ul li {
+  list-style: none;
+  color: rgb(163, 163, 163);
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  margin-top: 3px;
+}
+.footer h5 {
+  transform: translateX(38px);
+}
