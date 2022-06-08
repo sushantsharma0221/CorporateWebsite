@@ -164,7 +164,7 @@ ul li {
 .footer-bar {
   background-color: rgb(58, 15, 0);
   color: rgb(238, 238, 238);
-  height: 6vh;
+  height: 8vh;
 }
 .footer ul li {
   list-style: none;
@@ -176,4 +176,13 @@ ul li {
 }
 .footer h5 {
   transform: translateX(38px);
+}
+@media (max-width: 460px) {
+  iframe {
+    width: 270px;
+    height: 220px;
+  }
+  .footer-links {
+    display: none;
+  }
 }
